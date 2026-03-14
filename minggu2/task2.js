@@ -1,26 +1,9 @@
-const produkList = [
-  { nama: "Laptop", harga: 12000000, stok: 5 },
-  { nama: "Mouse", harga: 150000, stok: 50 },
-  { nama: "Keyboard", harga: 350000, stok: 30 },
-  { nama: "Monitor", harga: 3500000, stok: 0 },
-  { nama: "Webcam", harga: 500000, stok: 15 },
-  { nama: "Headset", harga: 275000, stok: 0 },
-  { nama: "SSD 1TB", harga: 1200000, stok: 20 },
-  { nama: "RAM 16GB", harga: 800000, stok: 10 },
-];
+const nilaiSiswa = [85, 92, 78, 65, 90, 55, 88, 73, 95, 60];
 
-
-//dari array diatas
-//1.map — Buat array baru berisi nama produk saja 
-
-//2.filter — Tampilkan produk yang stok-nya masih ada (stok > 0)
-
-//3.filter — Tampilkan produk dengan harga di bawah 1 juta
-
-//4.find — Cari produk bernama "SSD 1TB"
-
-//5.reduce — Hitung total nilai inventaris (harga × stok untuk setiap produk, lalu jumlahkan)
-
-//6.chaining — Dari produk yang stoknya > 0, ambil namanya saja, lalu urutkan A-Z
-
-//7.reduce — Hitung berapa banyak produk yang stoknya habis (0)
+// 1. map — Tambahkan 5 poin bonus ke setiap nilai
+// 2. filter — Tampilkan nilai yang lulus (nilai >= 75)
+// 3. filter — Tampilkan nilai yang tidak lulus (nilai < 75)
+// 4. find — Cari nilai pertama yang sempurna (nilai >= 90)
+// 5. reduce — Hitung total semua nilai
+// 6. chaining — Dari nilai yang lulus, tambahkan 5 poin, lalu urutkan dari terbesar
+// 7. reduce — Hitung berapa banyak siswa yang tidak lulus (nilai < 75)
