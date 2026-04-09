@@ -138,7 +138,7 @@ cyman nnti bagian nilai, di postmantnya gini
 
 {
     nilai:[
-        {"mapel"}
+         { "mapel": "IPA", "skor": 70 },
     ]
 }
 
